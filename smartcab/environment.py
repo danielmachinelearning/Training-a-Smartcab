@@ -288,10 +288,10 @@ class Environment(object):
         # Create a penalty factor as a function of remaining deadline
         # Scales reward multiplicatively from [0, 1]
         fnc = self.t * 1.0 / (self.t + state['deadline']) if agent.primary_agent else 0.0
-        gradient = 10
+        gradient = 15
         
         # No penalty given to an agent that has no enforced deadline
-        penalty = 0
+        penalty = 5
 
         # If the deadline is enforced, give a penalty based on time remaining
         if self.enforce_deadline:
