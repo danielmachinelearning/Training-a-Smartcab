@@ -5,7 +5,7 @@
 ### Dependencies/Prerequisites
 
 This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wiki/GettingStarted
-) library installed along with the Gym library.
+) library installed along with the Gym library.  Also requires sklearn for use of training machine learning algorithms.
 
 ### Installing
 
